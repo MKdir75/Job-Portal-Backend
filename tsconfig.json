@@ -1,27 +1,22 @@
 {
   "compilerOptions": {
-    /* File Layout */
     "rootDir": "./src",
     "outDir": "./dist",
 
-    /* Environment Settings */
     "target": "ES2020",
-    "module": "CommonJS",
-    "moduleResolution": "node",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "types": ["node"],
 
-    /* Interop Settings */
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-
-    /* Type Checking */
     "strict": true,
     "skipLibCheck": true,
 
-    /* Output Options */
     "sourceMap": true,
     "resolveJsonModule": true,
-    "allowJs": false
+    "allowJs": false,
+    "ignoreDeprecations": "6.0"
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
