@@ -19,7 +19,9 @@
     "skipLibCheck": true,
 
     /* Output Options */
-    "sourceMap": true
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "allowJs": false
   },
   "include": ["src"],
   "exclude": ["node_modules", "dist"]
